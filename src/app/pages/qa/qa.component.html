@@ -1,0 +1,14 @@
+<div style='transform: scale(0.65); position: relative; top: -100px;' *ngFor="let question of data">
+    <h3>({{question.id}}) {{question.question}}</h3>	
+    <p>Choose 1 answer</p>
+    <hr/>
+    <div id='block-11' style='padding: 10px;'*ngFor="let option of question.options">
+        <label for='option-11' style=' padding: 5px; font-size: 1.5rem;'>
+        <input type='radio' name='option' value={{option.value}} id='option-11' style='transform: scale(1.6); margin-right: 10px; vertical-align: middle; margin-top: -2px;' /> 
+                {{option.value}}
+        </label>
+        <span id='result-11'></span>
+    </div>
+    <hr/>
+    <button type='button' style='width: 100px; height: 40px; border-radius: 3px; background-color: lightblue; font-weight: 700;'>Submit</button>
+</div>
