@@ -11,6 +11,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "https://gopivr.github.io/agile-master",
             "outputPath": "dist",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -47,9 +48,6 @@
                 }
               ]
             },
-            "github-pages": {
-              "baseHref": "https://gopivr.github.io/angular-master"
-            },
             "development": {
               "vendorChunk": true,
               "extractLicenses": false,
@@ -71,16 +69,16 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "buildTarget": "agile-master:build",
+            "browserTarget": "agile-master:build",
             "publicHost": "http://0.0.0.0:80",
             "disableHostCheck": true
           },
           "configurations": {
             "production": {
-              "buildTarget": "agile-master:build:production"
+              "browserTarget": "agile-master:build:production"
             },
             "development": {
-              "buildTarget": "agile-master:build:development"
+              "browserTarget": "agile-master:build:development"
             }
           }
         },
