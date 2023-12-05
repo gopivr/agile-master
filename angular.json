@@ -47,6 +47,9 @@
                 }
               ]
             },
+            "github-pages": {
+              "baseHref": "https://gopivr.github.io/angular-master"
+            },
             "development": {
               "vendorChunk": true,
               "extractLicenses": false,
