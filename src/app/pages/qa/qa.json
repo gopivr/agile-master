@@ -50,5 +50,31 @@
 				"value": "E. Product Backlog items must be sized such that the highest ordered items are no bigger than a Sprint"
 			}
 		]
+	},
+	{
+		"id": "3",
+		"question": "Scrum is based on empiricism. All of its artifacts must be transparent to ensure sufficient accuracy of inspection. Choose the way to maintain the product backlog to maximaize it's transparency by the scrum team?",
+		"options": [
+			{
+				"id": "A",
+				"value": "The Product Backlog is continually kept up to date with the most recent insights."
+			},
+			{
+				"id": "B",
+				"value": "Product Backlog items should hold no more than 8 points of work, which is the average in the range of acceptable sizes of 1, 2, 3, 5, 8, and 13."
+			},
+			{
+				"id": "C",
+				"value": "The Product Backlog is only updated at the Sprint Review, when both the Scrum Team and the stakeholders are available."
+			},
+			{
+				"id": "D",
+				"value": "The Product Backlog is only updated at a release planning meeting with the stakeholders and the change control board present."
+			},
+			{
+				"id": "E",
+				"value": "E. Product Backlog items must be sized such that the highest ordered items are no bigger than a Sprint"
+			}
+		]
 	}
 ]
